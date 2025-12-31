@@ -10,4 +10,6 @@ export interface QuickAction {
   id: string;
   label: string;
   icon: React.ReactNode;
+  isComingSoon?: boolean;
+  badgeLabel?: string;
 }

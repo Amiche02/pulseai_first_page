@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import ProjectGrid from './components/ProjectGrid';
 import QuickActions from './components/QuickActions';
+import Integrations from './components/Integrations';
 
 const App: React.FC = () => {
   return (
@@ -22,6 +23,9 @@ const App: React.FC = () => {
           {/* Section: Recent Projects */}
           <ProjectGrid />
         </div>
+
+        {/* Future Integrations Teasing */}
+        <Integrations />
       </main>
       
       <footer className="w-full max-w-7xl mx-auto px-6 py-8 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between text-slate-400 text-sm">
